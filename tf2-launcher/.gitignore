@@ -1,0 +1,31 @@
+# Dependency files
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment files (keep private!)
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Process files
+.pidfile
+*.pid
+
+# Temporary files
+tmp/
+temp/
+*.tmp
