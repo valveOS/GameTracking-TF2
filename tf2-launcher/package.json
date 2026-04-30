@@ -1,0 +1,29 @@
+{
+  "name": "tf2-launcher",
+  "version": "1.0.0",
+  "description": "Lightweight TF2 launcher with Steam authentication and protobuf server connection",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "steam",
+    "tf2",
+    "launcher",
+    "protobuf",
+    "lightweight"
+  ],
+  "author": "valveOS",
+  "license": "MIT",
+  "dependencies": {
+    "steam-user": "^5.1.0",
+    "steam-totp": "^2.2.0",
+    "tf2": "^3.0.0",
+    "protobufjs": "^7.2.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
